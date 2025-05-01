@@ -1,0 +1,213 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Segoe UI", sans-serif;
+  color: #333;
+}
+
+.container {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+.name {
+  padding: 20px 0;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+}
+header {
+  background-image: url("air.jpg");
+  background-size: cover; /* Makes image cover full screen */
+  background-repeat: no-repeat; /* Prevents tiling */
+  background-position: center; /* Centers the image */
+}
+
+.hero-content h2 {
+  color: white;
+}
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 30px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: white;
+  font-weight: 500;
+}
+
+.hero {
+  position: relative;
+  padding: 80px 0;
+  overflow: hidden;
+}
+
+.hero-content {
+  max-width: 500px;
+  z-index: 1;
+  position: relative;
+}
+
+.hero h2 {
+  font-size: 3rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.hero p {
+  font-size: 1.1rem;
+  margin-bottom: 30px;
+}
+
+.btn {
+  display: inline-block;
+  background-color: #4285f4;
+  color: white;
+  padding: 12px 24px;
+  border-radius: 25px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background 0.3s;
+}
+
+.btn:hover {
+  background-color: #3367d6;
+}
+
+.features {
+  padding: 60px 0;
+}
+
+.cards {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.card {
+  flex: 1;
+  min-width: 250px;
+  background-color: white;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 2px 15px rgba(0, 0, 0, 0.05);
+  box-sizing: border-box;
+  overflow-wrap: break-word;
+  overflow: auto;
+}
+.bot {
+  margin-bottom: 70px;
+}
+.icon1 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+.icon2 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+  color: orange;
+}
+.container2 {
+  max-width: 500px;
+  margin: 60px auto;
+  background-color: white;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.container_cards {
+  text-align: center;
+  color: darkblue;
+}
+.container2 h2 {
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.container2 label {
+  display: block;
+  margin-bottom: 5px;
+  color: #333;
+}
+
+.container2 input[type="text"],
+.container2 input[type="email"],
+.container2 input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  font-size: 16px;
+}
+
+.container2 button {
+  width: 100%;
+  padding: 12px;
+  background-color: #0066ff;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.container2 button:hover {
+  background-color: #0052cc;
+}
+
+.container2 .info-text {
+  text-align: center;
+  margin-top: 15px;
+  font-size: 14px;
+  color: #666;
+}
+html {
+  scroll-behavior: smooth;
+}
+.contact-section {
+  max-width: 600px;
+  margin: 60px auto;
+  background-color: white;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: #0066ff;
+  text-align: center;
+}
+
+.contact-section h2 {
+  margin-bottom: 20px;
+  font-size: 24px;
+  color: #0066ff;
+}
+
+.contact-items p {
+  margin: 10px 0;
+  color: #333;
+}
+
+.contact-items strong {
+  color: #0066ff;
+}
+.custom-button {
+  text-decoration: none;
+  color: white;
+}

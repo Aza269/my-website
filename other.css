@@ -1,0 +1,145 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Segoe UI", sans-serif;
+  color: white;
+  line-height: 1.6;
+}
+
+.hero-section {
+  position: relative;
+  background: url("air.jpg") no-repeat center center/cover;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.hero-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.4); /* Transparent dark overlay */
+  z-index: 1;
+}
+
+.hero-content {
+  position: relative;
+  z-index: 2;
+  max-width: 900px;
+  padding: 0 1rem;
+}
+
+.hero-content h1 {
+  font-size: 2.8rem;
+  font-weight: bold;
+}
+
+.hero-content h2 {
+  font-size: 2rem;
+  margin: 1rem 0;
+}
+
+.hero-content h3 {
+  font-size: 1.2rem;
+  margin-top: 1rem;
+}
+
+.hero-content p {
+  font-size: 1rem;
+  margin-top: 1rem;
+}
+
+.navbar {
+  position: absolute;
+  top: 1.2rem;
+  right: 2rem;
+  z-index: 3;
+  display: flex;
+  gap: 2rem;
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1rem;
+  transition: color 0.3s;
+}
+
+.navbar a:hover {
+  color: #ddd;
+}
+
+.key-challenges {
+  background-color: #fff;
+  color: black;
+  padding: 4rem 2rem;
+  text-align: center;
+}
+
+.key-challenges h2 {
+  font-size: 1.5rem;
+  margin-bottom: 2rem;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.key-challenges ul {
+  list-style-type: disc;
+  padding-left: 2rem;
+  text-align: left;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.key-challenges li {
+  margin-bottom: 1rem;
+  font-weight: bold;
+}
+
+.awards-section {
+  text-align: center;
+  padding: 40px 20px;
+  font-family: "Georgia", serif;
+  margin-top: 50px;
+  color: black; /* Set default text color */
+}
+
+.section-title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  text-decoration: underline;
+  color: black;
+}
+
+.awards-list {
+  list-style: none;
+  padding: 0;
+  font-size: 18px;
+  line-height: 1.8;
+  color: black;
+}
+
+.awards-list li {
+  margin-bottom: 10px;
+}
+
+.inquiries-section {
+  margin-top: 40px;
+  font-size: 24px;
+  color: black;
+}
+
+.inquiries-section a {
+  color: #0077cc;
+  text-decoration: underline;
+}

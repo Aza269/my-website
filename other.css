@@ -143,3 +143,24 @@ body {
   color: #0077cc;
   text-decoration: underline;
 }
+
+.custom-btn {
+  display: inline-block;
+  background-color: #007bff; /* Matching Register button color */
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+  font-weight: 500;
+  border-radius: 8px;
+  margin-top: 15px;
+  transition: background-color 0.3s ease;
+}
+
+.custom-btn:hover {
+  background-color: #0056b3; /* Slightly darker on hover */
+}
+
+.btn-container {
+  text-align: center;
+  margin-top: 10px;
+}
